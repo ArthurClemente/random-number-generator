@@ -18,10 +18,18 @@
         <p>
             Max: <input type="number" name="maximo" id="valorMaximo" value="100">
         </p>
+        <div class="checks">
+            <p>
+                Negativos <input type="checkbox" name="negativo" id="checkNeg" class="checkBox">
+            </p>
+            <p>
+                Decimais <input type="checkbox" name="negativo" id="checkDec" class="checkBox">
+            </p>
+        </div>
         <p>
-            Num: <input type="text" name="resultado" id="saida" value="" readonly>
+            Num: <input type="number" name="resultado" id="saida" value="" readonly>
         </p>
-        <button type="button" onclick=gerar()>Gerar</button>
+        <button type="button" onclick=main()>Gerar</button>
     </div>
 </body>
 </html>

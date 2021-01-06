@@ -20,11 +20,17 @@ div.box{
     max-width: 500px;
 }
 
-p{
-    font-size: 16pt;
+div.checks{
+    display: flex;
 }
 
-input{
+
+p{
+    font-size: 16pt;
+    margin: 15px;
+}
+
+input[type=number]{
     border-style: solid;
     border-radius: 2px;
     border-width: 1px;
